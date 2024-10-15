@@ -9,3 +9,4 @@ went into desktop app and clone dit
 ## Websites i recommend  
 	[TikTok](https://www.tiktok.com/) - i enjoy scrolling through TikTok and seeing new videos every day.
 	[Instagram](https://www.instagram.com/) - I enjoy using Instagram to keep up with my friends and see what theyre doing.
+[GitHub Pages](https://pages.github.com/)
