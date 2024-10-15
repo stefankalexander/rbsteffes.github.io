@@ -7,5 +7,5 @@ went into desktop app and clone dit
 ## Interests  
 	-I enjoy watching football, hanging out with my friends, and playing video games.
 ## Websites i recommend  
-	- [TikTok](https://www.tiktok.com/) - i enjoy scrolling through TikTok and seeing new videos every day.
-	- [Instagram](https://www.instagram.com/) - I enjoy using Instagram to keep up with my friends and see what theyre doing.
+	[TikTok](https://www.tiktok.com/) - i enjoy scrolling through TikTok and seeing new videos every day.
+	[Instagram](https://www.instagram.com/) - I enjoy using Instagram to keep up with my friends and see what theyre doing.
