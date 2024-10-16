@@ -1,14 +1,14 @@
-#**o-nicholas.github.io**
+# **o-nicholas.github.io**
 
-#**About Me**
+# **About Me**
 
-##**My Interests**
+## **My Interests**
 
 _Basketball_,
 _Poetry_,
 _Vacation_
 
-##**Websites I recommend**
+## **Websites I recommend**
 
 [**_nba.com_**](www.nba.com) - _Great_ _place_ _to_ _find_ _up_ _to_ _date_ _info_ _on_ _nba_ _teams_ _and_ _players._
 
