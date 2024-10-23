@@ -6,5 +6,5 @@
 - I love Tiktok, and i'm studying this Github
 
 <h2>Websites I Recommend</h2> 
-- [Tiktok](https://www.tiktok.com) - Because it's fun
-- [Instagram](https://www.instagram.com) - Instagram is very informative.
+[Tiktok](https://www.tiktok.com) - Because it's fun
+[Instagram](https://www.instagram.com) - Instagram is very informative.
