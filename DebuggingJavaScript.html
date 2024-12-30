@@ -27,6 +27,7 @@
     <p id="result"></p>
     
     <script>
+        use strict;
         // Variable for the total
         totalAmount = 0;
 
@@ -34,9 +35,11 @@
             // Get the initial amount
             const principal = document.getElementById("principle").value;
 
-            //
-            const rate = document.getElementById("rate").value / 100;
-            const years = document.getElementById("years").value;
+            // update rate from the box
+            const rate;
+            rate = document.getElementById("rate").value / 100;
+            // get the years to calculate
+            const years = document.getElementById("years).value;
 
             // Call the power funtion, pow, from Math
             const monthlyRate = Math.pw(1 + rate, years * 12);
