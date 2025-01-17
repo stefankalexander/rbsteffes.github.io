@@ -1,0 +1,107 @@
+/* Smiley Face Puzzle CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background */
+    text-align: center;
+}
+
+.face-container {
+    position: relative;
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    background-color: #ffeb3b; /* Yellow face */
+    border: 5px solid #000; /* Black border */
+    border-radius: 50%;
+    display: block; /* Ensure the container remains visible */
+}
+
+.eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000; /* Black eyes */
+    border-radius: 50%;
+}
+
+.eye.left {
+    top: 50px;
+    left: 50px;
+}
+
+.eye.right {
+    top: 50px;
+    right: 50px;
+}
+
+.mouth {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: 5px solid #000; /* Black smile */
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+}
+
+.nose {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f44336; /* Red nose */
+    border-radius: 50%;
+    cursor: grab;
+}
+
+.nose.dragging {
+    cursor: grabbing;
+}
+
+.outside-nose {
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    z-index: 2;
+}
+
+#popup-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #003366; /* Wake Tech blue */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 100;
+}
+
+#popup-box a {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* JS Hook */
+.nose.on-face {
+    display: none;
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+}

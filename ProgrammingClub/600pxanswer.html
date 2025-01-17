@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiley Face Puzzle</title>
+    <link rel="stylesheet" href="600pxanswer.css">
+</head>
+<body>
+    <h1>Smiley Face Puzzle</h1>
+    <p>"Why is the AI dragging?"</p>
+    <blockquote>Because it's nose has dropped off!</blockquote>
+
+    <div class="face-container">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="mouth"></div>
+    </div>
+
+    <div class="nose outside-nose" draggable="true"></div>
+
+    <div id="popup-box">
+        <p>Great job! You solved the puzzle!</p>
+        <a href="nextpuzzle.html">Go to the next puzzle</a>
+    </div>
+
+    <div class="backdrop"></div>
+
+    <script>
+        const nose = document.querySelector('.nose');
+        const faceContainer = document.querySelector('.face-container');
+        const popupBox = document.getElementById('popup-box');
+        const backdrop = document.querySelector('.backdrop');
+
+        let isDragging = false;
+
+        nose.addEventListener('dragstart', () => {
+            isDragging = true;
+            nose.classList.add('dragging');
+        });
+
+        nose.addEventListener('dragend', () => {
+            isDragging = false;
+            nose.classList.remove('dragging');
+        });
+
+        faceContainer.addEventListener('dragover', (e) => {
+            e.preventDefault();
+        });
+
+        faceContainer.addEventListener('drop', () => {
+            if (isDragging) {
+                nose.style.position = 'absolute';
+                nose.style.top = '90px';
+                nose.style.left = '90px';
+                nose.classList.add('on-face');
+
+                popupBox.style.display = 'block';
+                backdrop.style.display = 'block';
+            }
+        });
+
+        backdrop.addEventListener('click', () => {
+            popupBox.style.display = 'none';
+            backdrop.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

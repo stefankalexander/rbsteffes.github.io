@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background color */
+    color: #000; /* Default text color */
+}
+
+.welcome-box {
+    background-color: #ececec; /* Light gray box background */
+    border: 2px solid #003366; /* Wake Tech blue */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.welcome-box h1 {
+    color: #003366; /* Wake Tech blue */
+}
+
+.welcome-box p {
+    color: #555; /* Darker gray for readability */
+}
+
+.puzzle-box {
+    background-color: #fff; /* White box background */
+    border: 2px solid #003366; /* Wake Tech blue */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.puzzle-box p {
+    font-weight: bold;
+    color: #000; /* Dark text for visibility */
+}
+
+.hidden-link {
+    color: #fff; /* Matches the white box */
+    text-decoration: none;
+}
+
+.hidden-link:hover {
+    text-decoration: underline;
+}
