@@ -1,8 +1,9 @@
-# Ryan Steffes
+# About Me
 
-## About me
-Make a ***change*** in this file following the ~~instructions~~ that are in the document in the assignments/lab.
+## My Interests
+I enjoy reading science fiction, coding small games, and learning about artificial intelligence.  
+I’m currently studying computer science and love working on creative tech projects.
 
-Second set of changes
-
-### My interests
+## Websites I Recommend
+- [FreeCodeCamp](https://www.freecodecamp.org) - Great platform to learn coding through hands-on exercises and real projects.
+- [Hacker News](https://news.ycombinator.com) - I like reading the latest tech news and developer discussions here.
